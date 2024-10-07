@@ -1,0 +1,29 @@
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.movies {
+  list-style: none;
+  display: grid;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 32px;
+}
+
+.movie {
+  text-align: center;
+}
+
+.movie img {
+  border-radius: 8px;
+  margin-top: 16px;
+}
